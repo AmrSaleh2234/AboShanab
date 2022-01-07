@@ -307,8 +307,8 @@ a:focus {
 }
 
 .carousel .animated {
-    -webkit-animation-duration: 1.5s;
-    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.8s;
+    animation-duration: 1.8s;
 }
 
 
@@ -497,33 +497,12 @@ a:focus {
     text-align: center;
     background: #121518;
     margin-bottom: 30px;
-    height: 450px;
+    height: 487px;
+    padding-bottom: 10px;
     
 }
 
-.service .service-icon {
-    height: 200px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #000000;
-}
 
-.service .service-icon i {
-    width: 100px;
-    height: 100px;
-    padding: 20px 0;
-    text-align: center;
-    font-size: 60px;
-    color: #aa9166;
-    background: #121518;
-    transition: .5s;
-}
-
-.service .service-item:hover .service-icon i {
-    margin-top: -15px;
-}
 
 .service .service-item h3 {
     margin: 0;
@@ -542,9 +521,11 @@ a:focus {
     margin: 0;
     color: #999999;
     padding: 0 25px 25px 25px;
-    font-size: 18px;
+    font-size: 19px;
     direction: rtl;
     padding: 10px;
+    font-weight: 800;
+    color: #95ecec;
 
 }
 
